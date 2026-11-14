@@ -2,7 +2,7 @@
 
 A lightweight,open-source, precise CPS (Clicks Per Second) limiter and mouse sensitivity adjuster for Linux, designed primarily for Gamers.
 
-![CPS Limiter Demo](demo.gif)
+![CPS Limiter Demo](assets/demo.gif)
 
 ## Features
 - Limits Left and Right Click CPS independently.
