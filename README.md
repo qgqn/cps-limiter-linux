@@ -15,7 +15,6 @@ A lightweight, precise CPS (Clicks Per Second) limiter and mouse sensitivity adj
 
 ## Installation
 
-**1. Build the Executable:**
 ```bash
 **1. Build the Executable:**
 
