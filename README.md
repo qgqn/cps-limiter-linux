@@ -1,6 +1,6 @@
 # CPS Limiter & Sensitivity (Linux)
 
-A lightweight, precise CPS (Clicks Per Second) limiter and mouse sensitivity adjuster for Linux, designed primarily for Gamers.
+A lightweight,open-source, precise CPS (Clicks Per Second) limiter and mouse sensitivity adjuster for Linux, designed primarily for Gamers.
 
 ![CPS Limiter Demo](demo.gif)
 
@@ -17,9 +17,9 @@ A lightweight, precise CPS (Clicks Per Second) limiter and mouse sensitivity adj
 
 ## Installation
 
-**1. Build the Executable:**
-First, install PyInstaller if you haven't already:
 ```bash
+**1. Build the Executable:**
+
 pip install pyinstaller --break-system-packages
 
 Then, compile the script into a single executable:
@@ -57,3 +57,13 @@ Usage
     Click START.
 
 Note: The application will prompt for your root password to access the /dev/input/ devices
+
+## Quick Install (Pre-compiled Binary)
+If you don't want to build from source, you can download the ready-to-use executable directly from the **[Releases](https://github.com/qqqn/cps-limiter-linux/releases)** page.
+
+1. Download the `cps_limiter` file.
+2. Open your terminal and make it executable:
+```bash
+chmod +x ~/Downloads/cps_limiter
+sudo mv ~/Downloads/cps_limiter /usr/local/bin/
+3.(Optional but recommended) Install the Polkit policy and Desktop shortcut so it works with a single click as described in steps 3 & 4 below.
