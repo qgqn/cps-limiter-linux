@@ -16,6 +16,42 @@ A lightweight, precise CPS (Clicks Per Second) limiter and mouse sensitivity adj
 ## Installation
 
 **1. Build the Executable:**
-Install PyInstaller if you haven't already:
+First, install PyInstaller if you haven't already:
 ```bash
 pip install pyinstaller --break-system-packages
+
+Then, compile the script into a single executable:
+
+pyinstaller --onefile --noconsole --hidden-import=evdev --hidden-import=evdev.ecodes cps_limiter.py
+
+2. Move the Executable:
+Move the compiled binary to your local bin directory so all users can access it:
+
+sudo mv dist/cps_limiter /usr/local/bin/
+sudo chmod +x /usr/local/bin/cps_limiter
+
+3. Install Polkit Policy (Required for GUI root access):
+Copy the policy file so the app can ask for a password graphically:
+
+sudo cp com.github.cpslimiter.policy /usr/share/polkit-1/actions/
+
+4. Install Desktop Shortcut:
+Copy the shortcut file so it appears in your application menu:
+
+sudo cp cps-limiter.desktop /usr/share/applications/
+
+5. Update Application Menu:
+
+kbuildsycoca6
+
+Usage
+
+    Open "CPS Limiter" from your application menu.
+
+    Enter your desired Mouse Sensitivity (e.g., 0.61).
+
+    Enter Left and Right CPS limits (e.g., 12).
+
+    Click START.
+
+Note: The application will prompt for your root password to access the /dev/input/ devices
