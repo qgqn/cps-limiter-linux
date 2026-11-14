@@ -14,6 +14,11 @@ A lightweight,open-source, precise CPS (Clicks Per Second) limiter and mouse sen
 - Linux (X11 or Wayland)
 - Python 3
 - `python-evdev` installed (`sudo pacman -S python-evdev` on Arch/Manjaro)
+  
+## Contact & Support
+
+If you encounter any bugs, have feature requests, or just want to say hi, please open an issue on the Issues page.
+You can also reach me directly at: qgqn@proton.me
 
 ## Installation
 
