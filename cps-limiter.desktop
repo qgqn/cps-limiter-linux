@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=CPS Limiter
+Comment=A simple CPS Limiter for Linux
+Exec=pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/local/bin/cps_limiter
+Icon=input-mouse
+Terminal=false
+Type=Application
+Categories=Utility;
