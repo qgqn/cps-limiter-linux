@@ -68,6 +68,6 @@ chmod +x ~/Downloads/cps_limiter
 sudo mv ~/Downloads/cps_limiter /usr/local/bin/
 3.(Optional but recommended) Install the Polkit policy and Desktop shortcut so it works with a single click as described in steps 3 & 4 below.
 
-## Contact & Support
+# Contact & Support #
 If you encounter any bugs, have feature requests, or just want to say hi, please open an issue on the [Issues page](https://github.com/qgqn/cps-limiter-linux/issues).
 You can also reach me directly at: [qgqn@proton.me]
