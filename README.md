@@ -16,8 +16,9 @@ A lightweight, precise CPS (Clicks Per Second) limiter and mouse sensitivity adj
 ## Installation
 
 **1. Build the Executable:**
-First, install PyInstaller if you haven't already:
 ```bash
+**1. Build the Executable:**
+
 pip install pyinstaller --break-system-packages
 
 Then, compile the script into a single executable:
