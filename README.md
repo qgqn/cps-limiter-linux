@@ -65,12 +65,10 @@ Note: The application will prompt for your root password to access the /dev/inpu
 
 ## Quick Install (Pre-compiled Binary)
 
-If you don't want to build from source, you can download the ready-to-use executable directly from the **[Releases](https://github.com/qqqn/cps-limiter-linux/releases)** page.
+If you don't want to build from source, you can download the ready-to-use executable directly from the **[Releases](https://github.com/qgqn/cps-limiter-linux/releases)** page.
 
 1. Download the `cps_limiter` file.
 2. Open your terminal and make it executable:
-
-```bash
 chmod +x ~/Downloads/cps_limiter
 sudo mv ~/Downloads/cps_limiter /usr/local/bin/
 3.(Optional but recommended) Install the Polkit policy and Desktop shortcut so it works with a single click as described in steps 3 & 4 below.
